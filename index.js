@@ -3,6 +3,6 @@ function doToElementsInArray(array,callback){
   array.forEach(callback);
 }
 // Add your changeCompletely() function here:
-function changeCompletely(element){
-  element = element.substring(1,element.length);
+function changeCompletely(element, index, array){
+  array[index] = element.substring(1,element.length);
 }
