@@ -4,5 +4,5 @@ function doToElementsInArray(array,callback){
 }
 // Add your changeCompletely() function here:
 function changeCompletely(element){
-  element.substring(1,4);
+  element.substring(1,element.length);
 }
